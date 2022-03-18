@@ -4,16 +4,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "YYKitXCF",
+    name: "YYKit",
     products: [
         .library(
-            name: "YYKitXCF",
-            targets: ["YYKitXCF"]),
+            name: "YYKit",
+            targets: ["YYKit"]),
     ],
     dependencies: [],
     targets: [
         .binaryTarget(
-                  name: "YYKitXCF",
+                  name: "YYKit",
                   path: "./Sources/YYKit.xcframework")
     ]
 )
